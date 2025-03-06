@@ -13,7 +13,7 @@ const authSlice = createSlice({
   reducers: {
     login: (state) => {
       localStorage.setItem("token","user_authenticated");
-      state.isAuthenticated=false;
+      state.isAuthenticated=true;
 
     },
     logout: (state) => {

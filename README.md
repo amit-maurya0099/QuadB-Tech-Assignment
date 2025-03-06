@@ -1,12 +1,44 @@
-# React + Vite
+# DoIt Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DoIt is a simple and efficient task management application built using React and Redux. It allows users to add, delete, and helping them stay organized.
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/6e14d58e-a208-4d27-bc60-5384a673d719)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Add new tasks
+- ❌ Delete tasks
+- 🔄 Persist tasks using LocalStorage
+- 🎨 Clean and modern UI with Tailwind CSS
+
+  ![image](https://github.com/user-attachments/assets/5e079153-0b04-4bc6-a714-64c6850d418d)
+
+
+## Technologies Used
+
+- **Frontend**: React, Redux, React Icons, Tailwind CSS
+- **State Management**: Redux Toolkit
+- **Storage**: LocalStorage
+
+![image](https://github.com/user-attachments/assets/8b6d76e3-b2fb-44a8-bc39-f6daaa9157bc)
+
+ 
+## Installation & Setup
+
+### Clone the repository:
+
+```sh
+git clone https://github.com/yourusername/doit-task-app.git
+cd doit-task-app
+```
+### Install Dependencies
+```sh
+npm install
+```
+### Run the app
+```sh
+npm start
+```
+
+
